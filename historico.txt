@@ -1,0 +1,109 @@
+PING uol.com.br (200.147.35.149) 56(84) bytes of data.
+64 bytes from uol.com.br (200.147.35.149): icmp_seq=1 ttl=243 time=7.01 ms
+
+--- uol.com.br ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.012/7.012/7.012/0.000 ms
+PING uol.com.br (200.147.3.157) 56(84) bytes of data.
+64 bytes from uol.com.br (200.147.3.157): icmp_seq=1 ttl=247 time=9.02 ms
+
+--- uol.com.br ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 9.021/9.021/9.021/0.000 ms
+debian
+PING uol.com.br (200.147.35.149) 56(84) bytes of data.
+64 bytes from uol.com.br (200.147.35.149): icmp_seq=1 ttl=243 time=7.27 ms
+
+--- uol.com.br ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.268/7.268/7.268/0.000 ms
+debian
+PING uol.com.br (200.147.35.149) 56(84) bytes of data.
+64 bytes from uol.com.br (200.147.35.149): icmp_seq=1 ttl=243 time=6.89 ms
+
+--- uol.com.br ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.888/6.888/6.888/0.000 ms
+debian
+PING uol.com.br (200.147.3.157) 56(84) bytes of data.
+64 bytes from uol.com.br (200.147.3.157): icmp_seq=1 ttl=247 time=6.28 ms
+
+--- uol.com.br ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.281/6.281/6.281/0.000 ms
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fe7d:d1b7  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:7d:d1:b7  txqueuelen 1000  (Ethernet)
+        RX packets 268804  bytes 310103694 (295.7 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 92829  bytes 20112057 (19.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Loopback Local)
+        RX packets 131  bytes 10696 (10.4 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 131  bytes 10696 (10.4 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Conexões Internet Ativas (sem os servidores)
+Proto Recv-Q Send-Q Endereço Local          Endereço Remoto         Estado      PID/Program name    
+udp        0      0 0.0.0.0:53338           0.0.0.0:*                           396/avahi-daemon: r 
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           2049/chrome --enabl 
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           396/avahi-daemon: r 
+udp6       0      0 :::47150                :::*                                396/avahi-daemon: r 
+udp6       0      0 :::5353                 :::*                                396/avahi-daemon: r 
+debian
+PING uol.com.br (200.147.35.149) 56(84) bytes of data.
+64 bytes from uol.com.br (200.147.35.149): icmp_seq=1 ttl=243 time=6.34 ms
+
+--- uol.com.br ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.344/6.344/6.344/0.000 ms
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fe7d:d1b7  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:7d:d1:b7  txqueuelen 1000  (Ethernet)
+        RX packets 269511  bytes 310281507 (295.9 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 93578  bytes 20362182 (19.4 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Loopback Local)
+        RX packets 135  bytes 10936 (10.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 135  bytes 10936 (10.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Conexões Internet Ativas (sem os servidores)
+Proto Recv-Q Send-Q Endereço Local          Endereço Remoto         Estado      PID/Program name    
+udp        0      0 0.0.0.0:53338           0.0.0.0:*                           396/avahi-daemon: r 
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                           2049/chrome --enabl 
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           396/avahi-daemon: r 
+udp6       0      0 :::47150                :::*                                396/avahi-daemon: r 
+udp6       0      0 :::5353                 :::*                                396/avahi-daemon: r 
+        lo                enp0s3      
+ KB/s in  KB/s out   KB/s in  KB/s out
+    0.00      0.00      0.00      0.00
+    0.00      0.00      0.12      0.12
+    0.00      0.00      0.00      0.00
+    0.00      0.00      0.00      0.00
+    0.00      0.00      0.00      0.00
+Tabela de Roteamento IP do Kernel
+Destino         Roteador        MáscaraGen.    Opções Métrica Ref   Uso Iface
+0.0.0.0         10.0.2.2        0.0.0.0         UG    100    0        0 enp0s3
+10.0.2.0        0.0.0.0         255.255.255.0   U     100    0        0 enp0s3
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp0s3
+debian
+PING uol.com.br (200.147.35.149) 56(84) bytes of data.
+64 bytes from uol.com.br (200.147.35.149): icmp_seq=1 ttl=243 time=6.99 ms
+
+--- uol.com.br ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.989/6.989/6.989/0.000 ms
